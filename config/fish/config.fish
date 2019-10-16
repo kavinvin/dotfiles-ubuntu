@@ -16,7 +16,10 @@ end
 
 function load
     setup_path
+    fish_vi_key_bindings
+    set -gx fish_cursor_insert line
     source $HOME/.config/fish/custom/alias.fish
+    source $HOME/.config/fish/local.fish
 end
 
 load

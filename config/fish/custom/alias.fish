@@ -19,10 +19,10 @@ alias sd 'fasd -sid'
 alias sf 'fasd -sif'
 alias v 'f -e vim'
 
+alias ls 'ls --color=auto'
 alias l 'ls -lah'
 alias la 'ls -lAh'
 alias ll 'ls -lh'
-alias ls 'ls -G'
 alias lsa 'ls -lah'
 alias md 'mkdir -p'
 abbr gg 'git graph'
@@ -46,7 +46,7 @@ abbr y yarn
 abbr c cargo
 abbr ne nix-env
 abbr k kanji
-alias e exit
+abbr e exit
 alias reload 'source $HOME/.config/fish/config.fish'
 abbr ju julia
 abbr k kubectl

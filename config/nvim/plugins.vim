@@ -1,7 +1,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Fuzzy Finder
-Plug '/usr/local/opt/fzf'
+Plug '~/.fzf'
 
 " Thai keys mapping
 Plug 'chakrit/vim-thai-keys'

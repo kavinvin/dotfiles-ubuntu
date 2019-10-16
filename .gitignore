@@ -1,0 +1,10 @@
+config/
+!config/fish
+!config/nvim
+!config/omf
+!config/yarn
+config/fish/fish_variables
+config/nvim/.netrwhist
+.DS_Store
+node_modules/
+ptpython/history
