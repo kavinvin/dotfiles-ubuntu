@@ -1,0 +1,1 @@
+/home/kavinvin/.local/share/omf/themes/salmon-theme/fish_prompt.fish
