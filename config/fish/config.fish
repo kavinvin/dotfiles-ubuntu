@@ -11,7 +11,7 @@ function vf
 end
 
 function setup_path
-    #add_path $HOME/miniconda3/bin
+    add_path $HOME/miniconda3/bin
 end
 
 function load
@@ -23,3 +23,9 @@ function load
 end
 
 load
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /home/kavinvin/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+
