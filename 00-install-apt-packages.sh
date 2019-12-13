@@ -5,6 +5,7 @@ sudo apt update
 sudo apt install -y neovim
 sudo apt install -y fish
 sudo apt install -y tldr
+sudo apt install -y python-pip
 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
@@ -16,14 +17,13 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 #rm -r clvv-fasd-4822024
 
 sudo usermod --shell /usr/bin/fish kavinvin
-#curl -L https://get.oh-my.fish | fish
-#omf install https://github.com/kavinvin/salmon-theme
-#omf theme salmon-theme
-#omf install https://github.com/jhillyerd/plugin-git
+curl -L https://get.oh-my.fish | fish
+omf install https://github.com/kavinvin/salmon-theme
+omf theme salmon-theme
+omf install https://github.com/jhillyerd/plugin-git
 
-pip install virtualfish
-mkdir ~/.virtualenvs
+pip3 install virtualfish
 vf new nvim
-pip install neovim
-pip install jedi
+pip3 install neovim
+pip3 install jedi
 vf deactivate
