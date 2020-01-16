@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install -y neovim
 sudo apt install -y fish
 sudo apt install -y tldr
-sudo apt install -y python-pip
+sudo apt install -y python3-pip
 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
@@ -18,9 +18,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 sudo usermod --shell /usr/bin/fish kavinvin
 curl -L https://get.oh-my.fish | fish
-omf install https://github.com/kavinvin/salmon-theme
-omf theme salmon-theme
-omf install https://github.com/jhillyerd/plugin-git
+fish -c "omf install https://github.com/kavinvin/salmon-theme"
+fish -c "omf theme salmon-theme"
+fish -c "omf install https://github.com/jhillyerd/plugin-git"
 
 pip3 install virtualfish
 vf new nvim

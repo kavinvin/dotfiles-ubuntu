@@ -8,4 +8,4 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 nvim --headless +PlugInstall +qa
 
 # Install neovim dependencies
-pip install neovim
+pip3 install neovim
