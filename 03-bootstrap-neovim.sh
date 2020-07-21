@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+pip install virtualenv
 mkdir ~/.virtualenvs
 virtualenv ~/.virtualenvs/nvim
 ~/.virtualenvs/nvim/bin/pip3 install neovim
