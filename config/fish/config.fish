@@ -12,6 +12,7 @@ end
 
 function setup_path
     add_path $HOME/miniconda3/bin
+    add_path $HOME/miniconda3/bin
 end
 
 function load
