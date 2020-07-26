@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-pip install virtualenv
+sudo apt install python-virtualenv
 mkdir ~/.virtualenvs
-virtualenv ~/.virtualenvs/nvim
+virtualenv -p python3 ~/.virtualenvs/nvim
 ~/.virtualenvs/nvim/bin/pip3 install neovim
 ~/.virtualenvs/nvim/bin/pip3 install jedi
 
